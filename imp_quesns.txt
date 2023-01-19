@@ -1,0 +1,158 @@
+⭐web browser?
+The web browser is a software application that can read HTML code. The web browser acts 
+as a translator so users can surf the web without the need to understand code.
+
+⭐tags?
+Elements like buttons and paragraph text require container tags
+Container tags consist of both opening < > and closing </> tags
+
+Some HTML elements can be defined with only one tag. They are called empty tags. 
+The image tag <img> is a good example of an empty tag
+
+⭐img tags
+Web browsers request information from the Web to put together and display web pages.
+Code, documents and media files such as images and video are put together by the browser 
+to display the resulting web page.
+
+The alt attribute is used to specify text, which will display if the image fails to load.
+
+⭐web server
+Web servers are computers that are always connected to the Internet and listening for 
+requests of information. They are specifically designed to store and share information. 
+
+⭐body tag
+The <body> container tag is used to group everything that gets displayed on a page when 
+loaded in a browser.
+The body of a page contains all the content that you need to display. Content elements 
+like paragraphs, headings, buttons and images need to be placed inside the <body> 
+container tag.
+
+⭐head tag
+The <head> container tag is used to include specific and technical information about the 
+page.
+
+⭐nested tags
+The <body> container tag needs to surround all the elements displayed on the page. 
+This is called nesting in HTML.
+The <html> tag is a container tag. Head and body are nested inside the <html> tags.
+
+⭐why indentation is used?
+Indentation is considered a very good practice that improves code readability. 
+Indentation refers to the spaces at the beginning of a code line. Different levels 
+of indentation are used to identify nesting.
+
+⭐text formating
+Text formatting helps website visitors find information they are looking for. 
+Text formatting is used to highlight the important content on a page and can help you 
+make your web pages more accessible and inclusive.
+
+⭐formating tags
+HTML formatting tags are used to change how text is displayed.
+The bold tag <b> is used to display text in bold.
+
+Formatting tags are examples of container tags. This means that both opening and closing 
+tags are required.
+The italic tag <i> is used to display text in italic font.
+
+The underline tag <u> is used to underline text.
+
+The strong important tag <strong> is used to highlight important text.
+
+The emphasis tag <em> is used to define emphasized text.
+
+⭐Attributes
+Tags can have attributes, which contain additional information about the element.
+
+The target attribute specifies how to open the link. With the value "_blank", it will open 
+in a new tab.
+
+The title attribute specifies the text to appear when the cursor is over the link.
+
+The alt attribute is used to specify text, which will display if the image fails to load.
+
+⭐Links
+Attributes are used for creating hyperlinks
+
+⭐What are HTML Elements?
+There are two important categories of elements in HTML: block-level elements and inline 
+elements.
+Block-level elements form a visible block on a page and appear on a new line.
+
+Inline elements are contained within block-level elements, and represent only small parts 
+of the page.For example, <a>, <b>, <strong> and similar elements are inline elements
+
+⭐Which tag is used to make an element a link?
+<a> tag
+
+⭐Table
+
+<th> tags need to be contained inside?
+<tr>
+
+what can do "colspan"?
+It is one of the attribute in table attribute, which allows a column to span multiple cells.
+(or)The colspan attribute defines the number of cells we want it to span.
+
+rowspan?
+Similar to spanning multiple columns, a cell can also span multiple rows. 
+That is achieved using the rowspan attribute.
+
+⭐Page sections
+
+Header
+The header of a website is usually a section on the top of the page, which can include a 
+logo, a name and other similar elements.
+It is also commonly shared between different pages of a website.
+
+To define a header section, use the <header> tag
+
+Navigation Bar
+The navigation bar includes links or buttons that lead to other pages of your website.
+It is defined using the <nav> tag.
+
+A <nav> element can only contain links?
+No. It contains both links or buttons.
+
+Main Content
+The main content of the page is defined using the <main> tag, which can include various 
+subsections represented by <article> and <section> tags.
+
+How many <div> elements can a page have?
+multiple
+
+Which tag is used as a container for the menu of a page?
+<nav>
+
+Which of the following is an inline-level element?
+<strong>
+
+⭐Forms
+A single form can contain only one input element?
+No
+
+Which attribute is used to define the text on a button created with the input element?
+value
+
+Only one option of a radio button group can be selected.
+True
+
+⭐Special Characters
+The < and > characters are used to create?
+tags
+
+The character references start with?
+&(ampersand)
+The character references end with?
+;(semicolon)
+
+Which is the character reference code for the > character?
+&gt;
+
+⭐Multimedia
+Audio
+The text in between the audio tags is?
+for unsupported browsers
+
+video
+Which element allows you to embed YouTube videos in a page?
+<iframe>
