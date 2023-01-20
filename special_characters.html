@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Special Characters
+    In HTML, the characters <, >, ", ' and & are special characters, and are parts of the 
+    HTML syntax itself.
+    But what if we want to include these special characters in our text?
+    For example, we want to include the < and > signs in a paragraph: -->
+    <p> A paragraph is created using the <p> tag </p>
+
+    <!-- To include special characters in text, we need to use character references.
+    These are special codes that represent characters; they start with an ampersand (&), 
+    and end with a semicolon (;).
+    The < sign is represented using & lt; while > is represented by & gt; -->
+    <p> A paragraph is created using the &lt;p&gt; tag </p>
+
+    <!-- <----- &lt; 
+         >----- &gt;
+         "----- &quot;
+         '----- &apos;
+         &----- &amp;
+         ©----- &copy;
+         non-breaking space----- &nbsp;
+    -->
+    <b>Speed:</b> 42&nbsp;mph
+    <!-- If you write 5 spaces in your text, the browser will remove 4 of them, but if you 
+    use 10 non-breaking spaces, all of them will be preserved. -->
+</body>
+</html>
