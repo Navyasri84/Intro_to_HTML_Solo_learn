@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+</head>
+<body>
+    <!-- Tables
+    A table is a set of rows and columns. 
+    A table is created using the <table> tag-->
+    
+    <!-- Table Rows
+    The <table> tag needs to include a <tr> tag for each row of the table -->
+    <table>
+        <tr></tr>
+        <tr></tr>
+    </table>
+
+    <!-- Table Cells
+    The <td> tag creates a table cell, which is contained inside the <tr> and contains the 
+    content of the cell -->
+    <table>
+        <tr>
+          <td>Amy</td>
+          <td>42</td>
+        </tr>
+        <tr>
+          <td>Bob</td>
+          <td>19</td>
+        </tr>
+    </table>
+    <br>
+    <!-- one of the attribute is "border" -->
+    <table border="1">
+        <tr><td>A</td><td>B</td></tr>
+        <tr><td>C</td><td>D</td></tr>
+    </table>
+    <br>
+    <!-- Headers -->
+    <!-- The <th> tag is similar to <td> and is used to add a header to the table. The 
+    header is a collection of <th> cells which define the content of the cell or row. 
+    They are automatically centered in the cell and bold -->
+    <table border="1">
+        <tr>
+          <th>Name</th>
+          <th>Age</th>
+        </tr>
+        <tr>
+          <td>Amy</td>
+          <td>42</td>
+        </tr>
+        <tr>
+          <td>Bob</td>
+          <td>19</td>
+        </tr>
+    </table>
+    <br>
+    <!-- "colspan" attribute -->
+    <!-- It is the attribute of table, which allows a column to span multiple cells -->
+    <table border="1">
+        <tr>
+          <th colspan="3">Users</th>
+        </tr>
+        <tr>
+          <th>Name</th>
+          <th>Age</th>
+          <th>Country</th>
+        </tr>
+        <tr>
+          <td>Amy</td>
+          <td>42</td>
+          <td>USA</td>
+        </tr>
+        <tr>
+          <td>Bob</td>
+          <td>19</td>
+          <td>Italy</td>
+        </tr>
+    </table>
+    <br>
+    <!-- rowspan -->
+    <!-- Similar to spanning multiple columns, a cell can also span multiple rows.That is 
+    achieved using the rowspan attribute. -->
+    <table border="1">
+        <tr>
+          <th>Mon</th>
+          <th>Tue</th>
+          <th>Wed</th>
+        </tr>
+        <tr>
+          <td>Soccer</td>
+          <td rowspan="2">Free Time</td>
+          <td>Math class</td>
+        </tr>
+        <tr>
+          <td>Biology</td>
+          <td>Travel</td>
+        </tr>
+      </table>
+</body>
+</html>
